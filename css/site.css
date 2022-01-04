@@ -33,6 +33,10 @@ h6 {
     color: var(--secondary-color);
 }
 
+.body-font {
+    color: var(--dark-color);
+}
+
 main>.container {
     padding: 60px 15px 0;
 }
