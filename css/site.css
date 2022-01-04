@@ -1,12 +1,14 @@
 :root {
     --primary-color: #1d5888;
-    --secondary-color: #ff0000;
+    --secondary-color: #BF0000;
     --dark-color: #292929;
     --white-color: #ffffff;
 }
 
 body {
     color: var(--dark-color);
+    font-family: 'STIX Two Math', serif;
+
 }
 
 nav {
@@ -18,8 +20,17 @@ footer {
     padding-right: 1rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    color: var(--primary-color);
+.info {
+    color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-color);
 }
 
 main>.container {
@@ -43,29 +54,29 @@ footer .social>a:hover {
     color: var(--secondary-color);
 }
 
-.bsicon{
+.bsicon {
     color: #8312FA;
-    }
-    
-.jsicon{
-    color: #F0DB4F;
-    }
-    
-.html5icon{
-    color: #E44D26;
-    }
-    
-.cssicon{
-    color: #0A71B8;
-    }
+}
 
-.checklist >li i {
+.jsicon {
+    color: #F0DB4F;
+}
+
+.html5icon {
+    color: #E44D26;
+}
+
+.cssicon {
+    color: #0A71B8;
+}
+
+.checklist>li i {
     color: var(--secondary-color);
-    }
+}
 
 code[class*="language-"],
 pre[class*="language-"] {
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-}  
+}
